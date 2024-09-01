@@ -1,0 +1,194 @@
+[
+    {
+      "id": 1,
+      "title": "Soul",
+      "category" : "satire",
+      "price": 30,
+      "disc": "Since Gran died a few months ago, twenty-five-year-old Molly has been navigating life's complexities all by herself.",
+      "img" : "/31.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Alone",
+      "category" : "satire",
+      "price": 50,
+      "img" : "/32.jpg",
+      "disc": "By the time Carrie retires from tennis, she is the best player the world has ever seen. She has shattered every record."
+    },
+    {
+      "id": 3,
+      "title": "Memory",
+      "category" : "satire",
+      "price": 70,
+      "img" : "/33.jpg",
+      "disc": "Bryce Quinlan and Hunt Athalar are trying to get back to normal―they may have saved Crescent City, but with so much upheaval in their lives."
+    },
+    {
+      "id": 4,
+      "title": "Crapshoot",
+      "img" : "/34.png",
+      "category" : "satire",
+      "price": 52,
+      "disc": "Nora Stephens’ life is books—she’s read them all—and she is not that type of heroine. Not the plucky one, not the laidback dream girl."
+    },
+    {
+      "id": 5,
+      "title": "Snake Island",
+      "category" : "satire",
+      "price": 90,
+      "img" : "/35.jpg",
+      "disc": "A novel of art, time travel, love, and plague that takes the reader from Vancouver Island in 1912 to a dark colony on the moon. Edwin St."
+    },
+    {
+      "id": 6,
+      "title": "Sin Eater",
+      "category" : "satire",
+      "img" : "/4.jpg",
+      "price": 120,
+      "disc": "A wildly inventive spin on the supernatural thriller, about a woman working as a nanny for a young boy with secrets."
+    },
+    {
+      "id": 7,
+      "title": "Bad Boys",
+      "category" : "satire",
+      "img" : "/36.png",
+      "price": 80,
+      "disc": "Too many popular histories seek to establish heroes, pioneers and martyrs but as Huw Lemmey and Ben Miller argue, the past is filled with queer people."
+    },
+    {
+      "id": 8,
+      "title": "Snatchers",
+      "category" : "satire",
+      "img" : "/37.jpg",
+      "price": 76,
+      "disc": "Boy meets boy. Boys become friends.The bestselling graphic novel about life, love, and everything that happens in between: this is the fourth volume of HEARTSTOPPER."
+    },
+    {
+      "id": 9,
+      "title": "King of Park",
+      "category" : "satire",
+      "price": 60,
+      "img" : "/38.png",
+      "disc": "Chemist Elizabeth Zott is not your average woman. In fact, Elizabeth Zott would be the first to point out that there is no such thing as an average woman."
+    },
+  
+    {
+      "id":10,
+      "title": "Snake Island",
+      "category": "new",
+      "price": 90,
+      "img" : "22.jpg",
+      "disc": "Aspernatur sed iusto, rem nulla exercitationem laborum earum corporis? Facilis commodi nam, dolores doloremque praesentium nobis consequatur."
+    },
+    {
+      "id": 11,
+      "title": "The Final Gambit",
+      "category": "new",
+      "img" : "23.jpeg",
+      "price": 40,
+      "disc": "To inherit billions, all Avery Kylie Grambs has to do is survive a few more weeks living in Hawthorne House. The paparazzi are dogging her every step."
+    },
+    {
+      "id": 12,
+      "title": "The Dark Queens",
+      "category": "new",
+      "price": 95,
+      "img" : "24.jpg",
+      "disc": "Aspernatur sed iusto, rem nulla exercitationem laborum earum corporis? Facilis commodi nam, dolores doloremque praesentium nobis consequatur."
+    },
+    {
+      "id" : 13,
+      "title" : "Shadow",
+      "disc" : "Aspernatur sed iusto, rem nulla exercitationem laborum earum corporis? Facilis commodi nam, dolores doloremque praesentium nobis consequatur.",
+      "price" : 100,
+      "category" : "new",
+      "img" : "25.jpg"
+  },
+  {
+      "id" : 14,
+      "title" : "The Empire",
+      "disc" : "Aspernatur sed iusto, rem nulla exercitationem laborum earum corporis? Facilis commodi nam, dolores doloremque praesentium nobis consequatur.",
+      "price" : 220,
+      "category" : "new",
+      "img" : "26.jpeg"
+  },
+  {
+      "id" : 15,
+      "title" : "Gang Story",
+      "disc" : "Aspernatur sed iusto, rem nulla exercitationem laborum earum corporis? Facilis commodi nam, dolores doloremque praesentium nobis consequatur.",
+      "price" : 101,
+      "category" : "new",
+      "img" : "27.jpg"
+  },
+  {
+      "id" : 16,
+      "title" : "Vastav",
+      "disc" : "Aspernatur sed iusto, rem nulla exercitationem laborum earum corporis? Facilis commodi nam, dolores doloremque praesentium nobis consequatur.",
+      "price" : 72,
+      "category" : "new",
+      "img" : "28.jpg"
+  },
+  {
+    "id" : 17,
+    "title" : "The Maid",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/25.jpg"
+
+},
+{
+    "id" : 18,
+    "title" : "Carrie Soto Is Back",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/22.jpg"
+
+},
+{
+    "id" : 19,
+    "title" : "House of Sky",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/23.jpeg"
+
+},
+{
+    "id" : 20,
+    "title" : "Book Lovers",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/24.jpg"
+
+},
+{
+    "id" : 21,
+    "title" : "Sea of Tranquility",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/28.jpg"
+
+},
+{
+    "id" : 22,
+    "title" : "Hidden Pictures",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/26.jpeg"
+
+},
+{
+    "id" : 23,
+    "title" : "The Final Gambit",
+    "disc" : "Lorem ipsum dolor sit amet elit. Obcaecati odit eaque natus dolores saepe laborum maiore.",
+    "price" : 0,
+    "category" : "free",
+    "img" : "/27.jpg"
+
+}
+  ]

@@ -1,0 +1,75 @@
+  #card {
+    position: relative;
+    width: 320px;
+    height: 380px;
+    border-radius: 18px;
+    z-index: 3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow : 0px 0px 30px rgba(0,0,0,.2);
+    transform-style: preserve-3d;
+    transform: perspective(10000px);
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.9);
+    transform-style: preserve-3d;
+  }
+  /* #card:hover{
+    @apply transform;
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 20deg);
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  } */
+  
+  .bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 310px;
+    height: 370px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .9);
+    backdrop-filter: blur(24px);
+    border-radius: 18px;
+    overflow: hidden;
+    outline: 1px solid white;
+  }
+  
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 260px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  
