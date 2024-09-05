@@ -1,9 +1,7 @@
-import React ,{useContext} from 'react'
-// import { CounterContext } from '../../ContextApi/CounterContext.jsx'
+import React from 'react'
+import { Link } from 'react-router-dom';
 
-const Cards = ({ item ,addToCart }) => {
-
-    // const value = useContext(CounterContext)
+const Cards = ({item}) => {
 
     return (
         <>
@@ -15,17 +13,15 @@ const Cards = ({ item ,addToCart }) => {
                             {item.title}
                             <div className="badge text-white bg-blue-500 dark:bg-blue-700 dark:border-none">{item.category}</div>
                         </h2>
-                        <p className="text-sm h text-justify dark:text-slate-400" >{item.disc}</p>
+                        <p className="text-sm  text-justify dark:text-slate-400" >{item.disc}</p>
                         <div className="card-actions justify-between">
                             <div className="badge font-semibold border-blue-500 badge-outline dark:border-blue-700 dark:text-slate-300">${item.price}</div>
-                            <a
-                               onClick={() => {
-                                // value.setcount((count) => count + 1); 
-                                addToCart(item);
-                               }} 
+
+                            <Link 
+                             to={`/bookdetail/${item._id}`}
                                className="border border-blue-500 rounded-lg px-2 text-[12px] py-1 font-semibold hover:bg-blue-500 hover:text-white cursor-pointer dark:hover:bg-blue-700 dark:border-blue-700 dark:text-slate-100">
                                 Buy Now
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

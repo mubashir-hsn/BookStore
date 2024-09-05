@@ -15,6 +15,7 @@ import EditBook from './Dashboard/EditBook.jsx';
 import Cart from './Components/CategoryComponents/Cart.jsx';
 import { CartProvider } from './ContextApi/CartContext.jsx';
 import { CounterProvider } from './ContextApi/CounterContextApi.jsx';
+import BookDetail from './Components/CategoryComponents/BookDetail.jsx';
 
 
 function ProtectedRoute({ children }) {
@@ -47,6 +48,11 @@ const router = createBrowserRouter([
   {
     path: '/cart',
     element: <Cart />,
+  },
+  {
+    path: '/bookdetail/:id',
+    element: <BookDetail />,
+    loader: ({ params }) => fetch(`http://localhost:4001/book/${params.id}`),
   },
   {
     path: '/signup',
