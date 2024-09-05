@@ -11,8 +11,8 @@ const EditBook = () => {
 
   const bookCategories = [
     "mist",
+    "new",
     "satire",
-    "new"
   ]
   const [selectCategory, setselectCategory] = useState(bookCategories[0])
 

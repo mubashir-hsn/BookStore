@@ -19,7 +19,6 @@ const AnimatedCard = ({ item }) => {
             <div className="card-body">
               <h2 className="card-title dark:text-blue-600">
                 {item.title}
-                <div className="badge  text-white bg-blue-500 dark:bg-blue-700 dark:border-none">{item.category}</div>
               </h2>
               <p className="text-sm text-justify dark:text-slate-400 line-clamp-3" >{item.disc}</p>
               <div className="card-actions justify-between">

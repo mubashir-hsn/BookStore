@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import Navbar from '../HomeComponents/Navbar.jsx';
 import Footer from '../HomeComponents/Footer.jsx'
 import { CartContext } from '../../ContextApi/CartContext'; 
-import { MdStar } from "react-icons/md";
+import { TiStarFullOutline } from "react-icons/ti";
 import { HiOutlineArrowCircleRight } from "react-icons/hi";// Import the context
 
 const BookDetail = () => {
@@ -30,8 +30,11 @@ const BookDetail = () => {
                 <img
                   src={img}
                   alt="Product-Image"
-                  className="w-full h-full"
+                  className="w-full h-[370px]"
                 />
+                <p className="mt-3 px-2 py-3 bg-red-200 rounded-lg inline-block lg:ml-20 text-gray-800 dark:text-gray-400 text-xl leading-6 sm:text-left sm:mt-2">
+                   Availability: <span className='pl-3 font-medium text-red-700 dark:text-red-700'>In Stock.</span>
+                  </p>
               </div>
               {/* Product Details */}
               <div className="flex flex-col justify-between">
@@ -40,7 +43,9 @@ const BookDetail = () => {
                   <h1 className="text-3xl font-semibold sm:text-4xl">
                     {title}
                   </h1>
-                  
+                  <p className="mt-1 text-gray-800 dark:text-gray-400 text-xl leading-6 text-justify sm:text-left sm:mt-2">
+                   By: <span className='font-semibold text-red-600 dark:text-red-700 underline underline-offset-1'>Stan Lee</span>
+                  </p>
                   {/* Product Description */}
                   <p className="mt-3 text-gray-600 dark:text-gray-400 text-md leading-6 text-justify sm:text-left sm:mt-4">
                    {disc}
@@ -50,9 +55,9 @@ const BookDetail = () => {
                    Category: {category}
                   </p>
                   {/* Star Ratings */}
-                  <span className="my-2 text-xl text-yellow-400 dark:text-yellow-500 flex items-center gap-1 sm:my-4">
+                  <span className="my-2 text-xl text-yellow-300 dark:text-yellow-400 flex items-center gap-1 sm:my-4">
                     {Array.from({ length: 5 }).map((_, index) => (
-                      <MdStar key={index} />
+                      <TiStarFullOutline key={index} />
                     ))}
                   </span>
                   {/* Product Price */}
